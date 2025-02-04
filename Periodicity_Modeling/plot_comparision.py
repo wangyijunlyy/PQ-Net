@@ -43,7 +43,7 @@ def main():
     parser.add_argument('--periodic_type', type=str, default='d5_s1', help='Periodic type to compare')
     args = parser.parse_args()
     
-    model_names = ['MLP', 'KAN', 'Transformer',  'Relu+Rff', 'SIREN', 'QAN']
+    model_names = ['MLP', 'KAN', 'Transformer',  'Relu+Rff', 'SIREN', 'PQN']
     
     # 加载所有可用的模型结果
     loss_records = {}

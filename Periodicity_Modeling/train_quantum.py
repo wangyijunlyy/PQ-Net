@@ -8,7 +8,7 @@ import argparse
 from generate_periodic_data import gen_periodic_data, plot_periodic_data
 sns.set_style('whitegrid')
 
-model_names = ['FAN', 'FANGated', 'MLP', 'KAN', 'Transformer', 'QAN']
+model_names = ['FAN', 'FANGated', 'MLP', 'KAN', 'Transformer', 'PQN']
 periodic_types = ['sin', 'mod', 'complex_1', 'complex_2', 'complex_3', 'complex_4', 'complex_5', 'complex_6']
 
 parser = argparse.ArgumentParser()

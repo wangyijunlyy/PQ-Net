@@ -32,7 +32,7 @@ def load_loss_dict(path, model_name, periodic_type):
             return json.load(f)
     return None
 
-model_names = ['FAN', 'FANGated', 'MLP', 'KAN', 'Transformer', 'QAN','Relu+Rff', 'SIREN', 'wire', 'FNO']
+model_names = ['FAN', 'FANGated', 'MLP', 'KAN', 'Transformer', 'PQN','Relu+Rff', 'SIREN', 'wire', 'FNO']
 periodic_types = ['sin','d2_s1', 'd5_s1','d6_s1']
 
 parser = argparse.ArgumentParser()

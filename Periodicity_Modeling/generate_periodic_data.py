@@ -37,7 +37,7 @@ def gen_periodic_data(periodic_type):
         BATCHSIZE = 16
         NUMEPOCH = 501
         PRINTEPOCH = 100
-        lr = 1e-1 # FAN调小:e-5,QAN，siren:e-4,qan:e-2,mlp:e-5,relu_eff:e-2
+        lr = 1e-1 # FAN调小:e-5,PQN，siren:e-4,PQN:e-2,mlp:e-5,relu_eff:e-2
         wd = 0.01
 
         # t, data = generate_periodic_data(int(1667*PERIOD), PERIOD)
@@ -80,7 +80,7 @@ def gen_periodic_data(periodic_type):
         BATCHSIZE = 16
         NUMEPOCH = 501
         PRINTEPOCH = 100
-        lr = 1e-1 # FAN调小:e-5,siren:e-,qan:e-1,relu_rff:e-3
+        lr = 1e-1 # FAN调小:e-5,siren:e-,PQN:e-1,relu_rff:e-3
         wd = 0.01
 
         # t, data = generate_periodic_data(int(1667*PERIOD), PERIOD)
@@ -122,7 +122,7 @@ def gen_periodic_data(periodic_type):
         BATCHSIZE = 16
         NUMEPOCH = 501
         PRINTEPOCH = 100
-        lr = 1e-1 # FAN调小:e-5,siren:e-2,qan:e-1,
+        lr = 1e-1 # FAN调小:e-5,siren:e-2,PQN:e-1,
         wd = 0.01
 
         # t, data = generate_periodic_data(int(1667*PERIOD), PERIOD)
