@@ -16,9 +16,6 @@ cd Symbolic_Formula_Representation
 python gen_dataset.py
 bash run_train_PQN.sh
 ```
-## Contact
-
-If you have any questions or want to use the code, please contact wang-yj@seu.edu.cn.
 
 ## Acknowledgement
 
