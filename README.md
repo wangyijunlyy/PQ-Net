@@ -28,7 +28,6 @@ bash run_train_PQN.sh
 ## Acknowledgement
 
 We appreciate the following github repos a lot for their valuable code base or datasets:
-(Due to the anonymity policy, specific information is hidden here.)
 
 https://github.com/zhouhaoyi/Informer2020
 
